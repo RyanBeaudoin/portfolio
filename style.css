@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: -10px auto;
+  text-align: center;
+  font-family: 'Gentium Basic', serif;
+}
+
+.bio-container {
+  background: black;
+  height: 500px;
+  overflow: auto;
+}
+
+.heading h1 {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 45px;
+  font-size: 28px;
+  line-height: 1.2;
+  color: white;
+  position: relative;
+  top: 70px;
+  right: 65px;
+}
+
+.header-description {
+  font-size: 14px;
+  position: relative;
+  bottom: 27px;
+  left: 80px;
+  text-align: left;
+  line-height: 1.2;
+  color: white;
+  display: inline-block;
+}
+
+.nav-links {
+  list-style: none;
+  color: white;
+}
+
+.nav-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 35px;
+  top: 10px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-links li {
+  margin: 35px;
+  border: solid 1px white;
+  height: 30px;
+  width: 75px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.project-img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+}
+
+.project-container {
+  display: inline-block;
+}
+
+.project-description h3 {
+  font-size: 16px;
+}
+
+.text-project-description {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left; 
+  max-width: 450px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.project-links {
+  line-height: .5;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+}
+
+.tech-container {
+  width: 300px;
+  display: inline-block;
+}
+
+.tech-container {
+  width: 300px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.tech-container>img {
+  flex: 0 30%;
+  margin: 2px;
+}
+
+.icon:nth-child(4) {
+  margin-left: 11px;
+}
+
+.about-me {
+  background: black;
+}
+
+#about-nav h2 {
+  padding-top: 15px;
+  color: white;
+  display: inline-block;
+}
+
+.text-about-me {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 25px;
+  max-width: 450px;
+  font-size: 14px;
+  color: white;
+  line-height: 1.4;
+  display: inline-block;
+  text-align: left;
+}
+
+.seperator {
+  background: linear-gradient(to right top, #007bb5, #0082ac, #008596, #008677, #008555, #3b823a, #597c1f, #747500, #9c6800, #c05421, #d9394d, #de2a82);
+  width: 200px;
+  height: 4px;
+  display: inline-block;
+}
+
+.contact {
+  margin-bottom: 15px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact-links {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.contact-links a:not(:last-child) {
+  margin-right: 25px;
+}
+
+.denver-latlong {
+  font-family: 'Pacifico', cursive;
+  color: #244e24;
+  font-size: 20px;
+}
